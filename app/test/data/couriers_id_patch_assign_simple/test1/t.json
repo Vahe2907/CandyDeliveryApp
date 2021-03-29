@@ -1,0 +1,40 @@
+{
+  "commands": [
+    {
+      "route": "/orders/assign",
+      "type": "post",
+      "data": {
+        "courier_id": 15
+      },
+      "code": 200
+    },
+    {
+      "route": "/couriers/15",
+      "type": "patch",
+      "data": {
+        "regions": [
+          2
+        ]
+      },
+      "code": 200
+    },
+    {
+      "route": "/couriers/0",
+      "type": "patch",
+      "data": {
+        "working_hours": [
+          "06:00-08:00", "09:00-12:00", "17:00-21:30"
+        ]
+      },
+      "code": 200
+    },
+    {
+      "route": "/orders/assign",
+      "type": "post",
+      "data": {
+        "courier_id": 0
+      },
+      "code": 200
+    }
+  ]
+}

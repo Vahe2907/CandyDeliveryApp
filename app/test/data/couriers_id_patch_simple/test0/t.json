@@ -1,0 +1,9 @@
+{
+  "id": 5,
+  "data": {
+    "courier_type": "bike",
+    "regions": [
+      0, 1
+    ]
+  }
+}

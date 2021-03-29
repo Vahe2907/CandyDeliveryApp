@@ -1,0 +1,12 @@
+{
+  "ans": {
+    "validation_error": {
+      "couriers": [
+        {
+          "id": 0
+        }
+      ]
+    }
+  },
+  "code": 400
+}

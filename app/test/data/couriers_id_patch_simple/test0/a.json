@@ -1,0 +1,13 @@
+{
+  "ans": {
+    "courier_id": 5,
+    "courier_type": "bike",
+    "regions": [
+      0, 1
+    ],
+    "working_hours": [
+      "09:00-23:00"
+    ]
+  },
+  "code": 200
+}

@@ -1,0 +1,59 @@
+{
+  "sample": "base_sample1",
+  "commands": [
+    {
+      "route": "/orders/assign",
+      "type": "post",
+      "data": {
+        "courier_id": 15
+      },
+      "code": 200
+    },
+    {
+      "route": "/couriers/15",
+      "type": "patch",
+      "data": {
+        "regions": [
+          1, 2
+        ]
+      },
+      "code": 200
+    },
+    {
+      "route": "/couriers/15",
+      "type": "patch",
+      "data": {
+        "regions": [
+          1, 2
+        ]
+      },
+      "code": 200
+    },
+    {
+      "route": "/orders/assign",
+      "type": "post",
+      "data": {
+        "courier_id": 5
+      },
+      "code": 200
+    },
+    {
+      "route": "/orders/complete",
+      "type": "post",
+      "data": {
+        "courier_id": 15,
+        "order_id": 100,
+        "complete_time": ""
+      },
+      "code": 200
+    },
+    {
+      "route": "/couriers/15",
+      "type": "get",
+      "data": {
+
+      },
+      "code": 200
+    }
+  ]
+}

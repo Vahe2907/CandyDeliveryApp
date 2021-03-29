@@ -1,0 +1,51 @@
+{
+  "data": [
+    {
+      "order_id": 0,
+      "weight": 5,
+      "region": 0,
+      "delivery_hours": [
+        "04:00-05:00", "12:00-13:00"
+      ]
+    },
+    {
+      "order_id": 100,
+      "weight": 5,
+      "region": 0,
+      "delivery_hours": [
+        "04:00-05:00", "12:00-13:00"
+      ]
+    },
+    {
+      "order_id": 6,
+      "region": 0,
+      "delivery_hours": [
+        "18:00-23:00"
+      ]
+    },
+    {
+      "order_id": 10,
+      "weight": 30,
+      "region": 0,
+      "delivery_hours": [
+        "trash:trash-trash:trash"
+      ]
+    },
+    {
+      "order_id": 200,
+      "weight": 100,
+      "region": 0,
+      "delivery_hours": [
+        "04:00-05:00", "12:00-13:00"
+      ]
+    },
+    {
+      "order_id": 1003,
+      "weight": 0,
+      "region": 0,
+      "delivery_hours": [
+        "04:00-05:00", "12:00-13:00"
+      ]
+    }
+  ]
+}

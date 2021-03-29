@@ -1,0 +1,59 @@
+{
+  "sample": "base_sample2",
+  "commands": [
+    {
+      "route": "/orders/assign",
+      "type": "post",
+      "data": {
+        "courier_id": 15
+      },
+      "code": 200
+    },
+    {
+      "route": "/orders/complete",
+      "type": "post",
+      "data": {
+        "courier_id": 15,
+        "order_id": 45,
+        "complete_time": ""
+      },
+      "code": 200
+    },
+    {
+      "route": "couriers/15",
+      "type": "patch",
+      "data": {
+        "courier_type": "foot"
+      },
+      "code": 200
+    },
+    {
+      "route": "/orders/complete",
+      "type": "post",
+      "data": {
+        "courier_id": 15,
+        "order_id": 100,
+        "complete_time": ""
+      },
+      "code": 200
+    },
+    {
+      "route": "/orders/complete",
+      "type": "post",
+      "data": {
+        "courier_id": 15,
+        "order_id": 0,
+        "complete_time": ""
+      },
+      "code": 200
+    },
+    {
+      "route": "/couriers/15",
+      "type": "get",
+      "data": {
+
+      },
+      "code": 200
+    }
+  ]
+}

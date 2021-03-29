@@ -1,0 +1,15 @@
+{
+  "ans": {
+    "courier_id": 15,
+    "courier_type": "car",
+    "regions": [
+      1, 2
+    ],
+    "working_hours": [
+      "04:00-16:00"
+    ],
+    "rating": "4.83",
+    "earnings": "4500"
+  },
+  "code": 200
+}
